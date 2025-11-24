@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  padding: 0 20px;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.menu-icon {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* HERO SECTION */
+.hero {
+  background: #ffe7ec;
+  border-radius: 15px;
+  padding: 40px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.price {
+  color: #ff2875;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.hero-img img {
+  width: 260px;
+}
+
+.btn {
+  padding: 12px 25px;
+  background: #ff1f73;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn.small {
+  padding: 8px 15px;
+}
+
+/* Categories */
+.categories h2 {
+  margin: 35px 0 15px;
+}
+
+.cat-list {
+  display: flex;
+  gap: 20px;
+}
+
+.cat {
+  padding: 12px 25px;
+  background: #fff;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between; /* text left, image right */
+  align-items: center;
+  width: 150px;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Small image */
+.cat img {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
+
+/* Background Colors */
+.cat:nth-child(1) { background: #ffa726; } /* Watch */
+.cat:nth-child(2) { background: #ff3b7b; } /* Bag */
+.cat:nth-child(3) { background: #5a3bff; } /* Shoes */
+
+/* Text color */
+.cat span {
+  color: white;
+  font-size: 18px;
+}
+
+
+/* Background Colors */
+.cat:nth-child(1) { background: #ffa726; }   /* Watch */
+.cat:nth-child(2) { background: #ff3b7b; }   /* Bag */
+.cat:nth-child(3) { background: #5a3bff; }   /* Shoes */
+
+.cat span {
+  color: white;
+  font-size: 18px;
+}
+
+
+/* individual colors */
+.cat:nth-child(1) { background: orange; }
+.cat:nth-child(2) { background: #ff1f73; }
+.cat:nth-child(3) { background: #5a3bff; }
+
+
+.cat-list {
+  display: flex;
+  gap: 15px;
+}
+
+.cat {
+  padding: 12px 25px;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.watch { background: orange; }
+.bag { background: #ff1f73; }
+.shoes { background: #5a3bff; }
+
+/* Products */
+.products h2 {
+  margin: 40px 0 20px;
+}
+
+.product-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.product-card {
+  width: 32%;
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 150px;
+}
+
+.product-card p {
+  color: #666;
+  margin: 10px 0;
+}
+
+.product-card h4 {
+  color: #333;
+  margin: 10px 0;
+}
+
+/* Footer */
+.footer {
+  margin-top: 60px;
+  background: #ffe7ec;
+  padding: 40px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.email-box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.email-box input {
+  width: 280px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
